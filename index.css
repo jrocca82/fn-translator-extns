@@ -1,0 +1,13 @@
+body {
+	min-width: 250px;
+	justify-content: "center";
+	align-items: "center";
+}
+
+#key_entered {
+	display: none;
+}
+
+#lang_entered {
+	display: none;
+}

@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div id="key_needed">
+			<p>To get started, add your OpenAI API Key!</p>
+			<input id="key_input" />
+			<button id="save_key_button">Add key</button>
+		</div>
+		<div id="key_entered">
+			<p>You entered your OpenAI API Key.</p>
+			<button id="change_key_button">Change key</button>
+		</div>
+
+		<div id="lang_needed">
+			<p>Choose a language to translate to:</p>
+			<input id="lang_input" />
+			<button id="save_lang_button">Add language</button>
+		</div>
+		<div id="lang_entered">
+			<button id="change_lang_button">Change language</button>
+		</div>
+		<div>
+			<h4>Instructions</h4>
+			<p>
+				After adding your API key and language, highlight a function in the web
+				browser, right click, and select "Translate function". Your results will
+				display in the console.
+			</p>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>
